@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For CMPS14
+####################################### 
+# Datatypes (KEYWORD1)
+#######################################
+
+CMPS14  KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+readBearing	KEYWORD2
+readPitch	KEYWORD2
+readRoll	KEYWORD2
+readGyroX	KEYWORD2
+readGyroY	KEYWORD2
+readGyroZ	KEYWORD2
+			
+getBearing	KEYWORD2
+getPitch	KEYWORD2
+getRoll		KEYWORD2
+getGyroX	KEYWORD2
+getGyroZ	KEYWORD2
+getGyroY	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
