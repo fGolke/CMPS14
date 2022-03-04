@@ -16,6 +16,8 @@ class CMPS14
 public:
 	CMPS14(int16_t compassAddress = CMPS14_DEFAULT_ADDRESS);
 	
+	void begin();
+
 	int16_t readBearing();
 	int8_t readPitch();
 	int16_t readRoll();
@@ -32,8 +34,6 @@ public:
 	int16_t getGyroZ();
 	
 private:
-	void init();
-	
 	int8_t  readInt8(int16_t address);
 	int16_t readInt16(int16_t highAddress, int16_t lowAddress);
 	

@@ -34,10 +34,9 @@
 CMPS14::CMPS14(int16_t compassAddress)
 {
 	m_compassAddress = compassAddress;
-	init();
 }
 
-void CMPS14::init()
+void CMPS14::begin()
 {
 	Wire.begin();
 	m_pitchOffset	= 0;
